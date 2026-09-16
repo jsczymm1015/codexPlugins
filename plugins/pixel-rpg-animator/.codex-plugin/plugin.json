@@ -1,0 +1,16 @@
+{
+  "name": "pixel-rpg-animator",
+  "version": "0.1.0",
+  "author": {"name": "Local developer"},
+  "description": "从用户上传的任意视角角色素材生成像素角色与逐帧动画图集。",
+  "skills": "./skills/",
+  "interface": {
+    "developerName": "Local developer",
+    "displayName": "像素角色动画工坊",
+    "shortDescription": "上传角色素材，自动补全视角并制作像素动画图集",
+    "longDescription": "支持侧面、背面和斜视角色参考。保留原图特征，补全正面基准，分阶段制作四方向行走或扩展动作。必须有用户上传的参考图，依赖会话图像生成能力。",
+    "category": "Productivity",
+    "defaultPrompt": "根据我上传的角色素材图，补全其他视角，先制作正面像素基准图，再生成四方向8帧行走图集。",
+    "capabilities": []
+  }
+}

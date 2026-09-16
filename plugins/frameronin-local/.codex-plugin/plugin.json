@@ -1,0 +1,18 @@
+{
+  "name": "frameronin-local",
+  "version": "0.1.0",
+  "description": "调用本地 FrameRonin 后台进行视频转图集、图片抠图及视频角标修复。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FrameRonin 本地素材工坊",
+    "shortDescription": "视频抽帧、透明抠图与视频角标修复",
+    "longDescription": "根据本地后台真实API封装；需已运行FrameRonin服务，不包含角色生成模型或Gem提示词。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "使用本地 FrameRonin 后台处理我指定的素材，保存结果并检查质量。"
+  }
+}

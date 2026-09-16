@@ -1,0 +1,6 @@
+interface:
+  display_name: "Civitai 模型寻址"
+  short_description: "读取原始 PNG 的生成参数，查找主模型、LoRA 和放大模型的下载地址"
+  default_prompt: "使用 $civitai-model-finder 提取我上传的 PNG，并查找所需模型的下载地址。"
+policy:
+  allow_implicit_invocation: true

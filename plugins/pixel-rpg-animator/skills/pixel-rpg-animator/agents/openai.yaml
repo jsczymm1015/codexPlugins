@@ -1,0 +1,6 @@
+interface:
+  display_name: "像素角色动画工坊"
+  short_description: "上传任意视角角色素材，自行补全其他视角并分阶段制作像素动画图集"
+  default_prompt: "使用 $pixel-rpg-animator 根据我上传的角色素材补全视角，制作像素基准图和四方向动画。"
+policy:
+  allow_implicit_invocation: true

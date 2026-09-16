@@ -1,0 +1,18 @@
+{
+  "name": "civitai-model-finder",
+  "version": "0.1.0",
+  "description": "提取 PNG 生成参数，按哈希和名称查找模型资源下载地址",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Civitai 模型寻址",
+    "shortDescription": "上传原始 PNG，查找模型、LoRA 和放大模型的下载地址",
+    "longDescription": "解析 A1111 与常见 ComfyUI 元数据，查询并核对模型资源、版本和下载链接，提供安装目录与明确的匹配状态。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "提取我上传的 PNG，并查找所有依赖模型的下载地址。"
+  }
+}
