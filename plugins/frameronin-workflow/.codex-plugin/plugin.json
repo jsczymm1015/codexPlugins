@@ -1,0 +1,22 @@
+{
+  "name": "frameronin-workflow",
+  "version": "0.1.0",
+  "description": "Local FrameRonin browser workflow for sprite preparation; not an official MCP or bundled backend.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FrameRonin 工作流（本地接入）",
+    "shortDescription": "通过FrameRonin检查和整理像素序列帧。",
+    "longDescription": "Local FrameRonin browser workflow for sprite preparation; not an official MCP or bundled backend.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Sprite sheet workflow",
+      "Frame preview and arrangement",
+      "Approved character preservation"
+    ],
+    "defaultPrompt": "Help me use Frameronin Workflow."
+  }
+}

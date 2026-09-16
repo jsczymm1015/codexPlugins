@@ -1,0 +1,23 @@
+{
+  "name": "conversation-handoff",
+  "version": "0.1.0",
+  "description": "输入codex_his中的文件夹名，读取最新交接记录并继续对话。",
+  "author": {
+    "name": "jsczymm1015"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YMM的GPT聊天记录大恢复术",
+    "shortDescription": "输入 sanguo 等文件夹名，恢复另一台电脑的讨论进度。",
+    "longDescription": "从私有仓库 jsczymm1015/codex_his 的 main 分支读取指定目录。自动区分已定、待定和废弃方案；默认只读。需本机GitHub访问权限，支持现有Git授权及浏览器读取后备流程。",
+    "developerName": "jsczymm1015",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "sanguo"
+    ],
+    "brandColor": "#357A68"
+  }
+}

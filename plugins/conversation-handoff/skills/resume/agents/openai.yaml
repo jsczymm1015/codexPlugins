@@ -1,0 +1,4 @@
+interface:
+  display_name: "读取对话接力"
+  short_description: "输入仓库文件夹名，读取最新交接记录并接续跨电脑的讨论进度"
+  default_prompt: "使用 $resume 读取 sanguo 文件夹的最新交接记录，继续讨论。"
