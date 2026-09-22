@@ -41,6 +41,18 @@ python3 skills/test-with-jev/scripts/jev_test.py doctor
 
 `configure` 隐藏输入，凭据保存到 `~/.config/codex-jev-test/api-key`，不进入插件、项目或 Git。也支持 `TYPESAFE_API_KEY`、`JEV_API_KEY` 或 `JEV_API_KEY_FILE`。请勿把密钥发给聊天。离线环境和缺少密钥时，Codex 仍可执行本地测试，报告会明确注明 Jev 未运行。
 
+## 默认中文表格报告
+
+每次调用（包括重新评估）默认生成中文Markdown表格：结果总览、需求逐项结论、全部用例、问题原因与影响、未验证项及下一步。英文业务描述由Codex翻译归纳，Jev枚举自动译为中文；JSON只保留作原始证据附件。
+
+本地 `render_report.py` 校验输入与Jev结果匹配，确定性计算状态及计数，不联网、不消耗额外API调用。失败不能被模型“已覆盖”覆盖；没执行的方案明确显示尚未执行。详细输入见 [中文报告规范](skills/test-with-jev/references/reporting.md)。
+
+```sh
+python3 skills/test-with-jev/scripts/render_report.py \
+  --input evidence.json --review jev-review.json \
+  --notes report-notes.zh.json --output report.zh.md
+```
+
 ## 自测
 
 在插件根目录：

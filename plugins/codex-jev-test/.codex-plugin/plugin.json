@@ -1,18 +1,21 @@
 {
   "name": "codex-jev-test",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260922042054",
   "description": "Codex executes evidence-based functional tests; Jev reviews coverage and triages failures.",
   "author": {
     "name": "jsczymm1015"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "Codex × Jev 功能测试助手",
-    "shortDescription": "真实测试验证功能，Jev 辅助检查覆盖与归类失败",
-    "longDescription": "Codex 解析需求、编写并执行测试，Jev 通过官方接口辅助评估覆盖与失败类型。保留真实测试证据，支持无密钥离线模式，不将模型判断冒充测试通过。",
+    "displayName": "Codex \u00d7 Jev \u529f\u80fd\u6d4b\u8bd5\u52a9\u624b",
+    "shortDescription": "\u771f\u5b9e\u6d4b\u8bd5\u9a8c\u8bc1\u529f\u80fd\uff0cJev \u8f85\u52a9\u68c0\u67e5\u8986\u76d6\u4e0e\u5f52\u7c7b\u5931\u8d25",
+    "longDescription": "Codex \u89e3\u6790\u9700\u6c42\u3001\u7f16\u5199\u5e76\u6267\u884c\u6d4b\u8bd5\uff0cJev \u901a\u8fc7\u5b98\u65b9\u63a5\u53e3\u8f85\u52a9\u8bc4\u4f30\u8986\u76d6\u4e0e\u5931\u8d25\u7c7b\u578b\u3002\u4fdd\u7559\u771f\u5b9e\u6d4b\u8bd5\u8bc1\u636e\uff0c\u652f\u6301\u65e0\u5bc6\u94a5\u79bb\u7ebf\u6a21\u5f0f\uff0c\u4e0d\u5c06\u6a21\u578b\u5224\u65ad\u5192\u5145\u6d4b\u8bd5\u901a\u8fc7\u3002",
     "developerName": "jsczymm1015",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": ["用 Codex × Jev 验证当前功能改动，给出测试证据与未覆盖场景。", "测试这批需求，让 Jev 辅助检查覆盖和归类失败。"]
+    "defaultPrompt": [
+      "\u7528 Codex \u00d7 Jev \u9a8c\u8bc1\u5f53\u524d\u529f\u80fd\u6539\u52a8\uff0c\u7ed9\u51fa\u6d4b\u8bd5\u8bc1\u636e\u4e0e\u672a\u8986\u76d6\u573a\u666f\u3002",
+      "\u6d4b\u8bd5\u8fd9\u6279\u9700\u6c42\uff0c\u8ba9 Jev \u8f85\u52a9\u68c0\u67e5\u8986\u76d6\u548c\u5f52\u7c7b\u5931\u8d25\u3002"
+    ]
   }
 }
