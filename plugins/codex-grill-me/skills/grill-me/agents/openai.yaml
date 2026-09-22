@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grill Me · 深度追问"
+  short_description: "按决策依赖分轮追问你的想法，澄清目标、边界、风险与关键取舍"
+  default_prompt: "用 $grill-me 深入追问我的想法，分轮提出问题和建议，等我回答后再继续。"
+policy:
+  allow_implicit_invocation: false

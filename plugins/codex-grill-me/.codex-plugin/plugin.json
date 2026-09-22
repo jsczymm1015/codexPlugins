@@ -1,0 +1,18 @@
+{
+  "name": "codex-grill-me",
+  "version": "0.1.0",
+  "description": "基于 Matt Pocock grill-me 的 Codex 中文深度追问助手",
+  "author": {
+    "name": "codexPlugins contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Grill Me · 深度追问助手",
+    "shortDescription": "分轮追问想法与方案，澄清目标、风险和关键取舍",
+    "longDescription": "基于 Matt Pocock 的 grill-me/grilling，按决策依赖提出问题和建议，等待你的回答；默认中文，不擅自实施。",
+    "developerName": "codexPlugins contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "用 $grill-me 帮我深入澄清想法，分轮追问并等待我的回答。"
+  }
+}
