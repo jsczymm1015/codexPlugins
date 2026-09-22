@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+api-key
+reports/
+test-results/

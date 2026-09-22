@@ -1,0 +1,17 @@
+{
+  "requirements": [
+    {"id": "R1", "text": "Repeated submission of the same synthetic order must create only one record."}
+  ],
+  "cases": [
+    {
+      "id": "C1",
+      "requirement_ids": ["R1"],
+      "scenario": "Submit the same synthetic request twice.",
+      "expected": "Exactly one record exists.",
+      "observed": "Example only; no test has been run.",
+      "status": "not_run",
+      "evidence": []
+    }
+  ],
+  "runs": []
+}

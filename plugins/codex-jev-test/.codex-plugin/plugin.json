@@ -1,0 +1,18 @@
+{
+  "name": "codex-jev-test",
+  "version": "0.1.0",
+  "description": "Codex executes evidence-based functional tests; Jev reviews coverage and triages failures.",
+  "author": {
+    "name": "jsczymm1015"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex × Jev 功能测试助手",
+    "shortDescription": "真实测试验证功能，Jev 辅助检查覆盖与归类失败",
+    "longDescription": "Codex 解析需求、编写并执行测试，Jev 通过官方接口辅助评估覆盖与失败类型。保留真实测试证据，支持无密钥离线模式，不将模型判断冒充测试通过。",
+    "developerName": "jsczymm1015",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["用 Codex × Jev 验证当前功能改动，给出测试证据与未覆盖场景。", "测试这批需求，让 Jev 辅助检查覆盖和归类失败。"]
+  }
+}

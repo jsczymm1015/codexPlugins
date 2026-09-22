@@ -1,6 +1,6 @@
 # 我的 Codex 插件
 
-六个个人插件的源码与可安装 marketplace。
+个人插件的源码与可安装 marketplace。
 
 | 插件 | 标识 | 运行依赖 |
 |---|---|---|
@@ -11,6 +11,7 @@
 | FrameRonin 工作流（本地接入） | `frameronin-workflow` | 可用浏览器、FrameRonin 网站 |
 | Godot Game Dev Studio | `godot-game-dev-studio` | 按技能需要使用 Godot 与相关工具 |
 | YMM的GPT聊天记录大恢复术 | `conversation-handoff` | Python 3、Git、目标私有仓库访问权限 |
+| [Codex × Jev 功能测试助手](plugins/codex-jev-test/README.md) | `codex-jev-test` | Python 3.10+；Jev 在线辅助需要 TypeSafe API Key |
 
 ## 在另一台电脑安装
 
@@ -24,6 +25,7 @@ codex plugin add civitai-model-finder@codex-plugins
 codex plugin add frameronin-workflow@codex-plugins
 codex plugin add godot-game-dev-studio@codex-plugins
 codex plugin add conversation-handoff@codex-plugins
+codex plugin add codex-jev-test@codex-plugins
 ```
 
 安装后新建 Codex 任务以加载技能。仓库同步的是插件文件，不会同时安装 FrameRonin 后台、大模型或其他运行依赖。仅登录同一个 Codex 账号不等于已配置此 Git marketplace。
@@ -49,3 +51,10 @@ codex plugin add conversation-handoff@codex-plugins
 - 聊天记录恢复脚本通过本地临时 Git 仓库测试，覆盖读取顺序、目录校验、缺失目录、符号链接跳过和大小限制；未读取或上传私人聊天内容。
 - FrameRonin 网页操作、Godot 游戏运行和私有聊天仓库远端读取未在本次上传中重做端到端测试。
 - 后续创建或更新插件，在适用测试跑通后自动提交并推送到本仓库。此规则已另存到当前电脑的 Codex 全局规则；其他电脑需自行同步全局规则。
+
+## Jev 测试插件验证范围（2026-09-22）
+
+- 官方插件结构及 skill 元数据校验通过。
+- 23 项本地自动化测试通过，含模拟 HTTP 协议、重试上限、响应校验、凭据处理、JUnit 解析及 CLI 流程。
+- 合成输入 dry-run 可执行；真实 Jev 服务端联调尚未执行，需要本机配置 TypeSafe API Key。模拟调用通过不代表真实模型效果通过。
+- 插件只提交源码、通用合成示例、说明及测试，不包含业务项目测试报告或凭据。
