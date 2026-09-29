@@ -13,7 +13,7 @@
 | YMM的GPT聊天记录大恢复术 | `conversation-handoff` | Python 3、Git、目标私有仓库访问权限 |
 | [Codex × Jev 功能测试助手](plugins/codex-jev-test/README.md) | `codex-jev-test` | Python 3.10+；Jev 在线辅助需要 TypeSafe API Key |
 
-| [HTML 导入字段表生成器](plugins/html-columns-excel/README.md) | `html-columns-excel` | Python 3.10+、openpyxl、esprima |
+| [导出系统导入模板一键生成](plugins/html-columns-excel/README.md) | `html-columns-excel` | Python 3.10+、openpyxl、esprima |
 
 ## 在另一台电脑安装
 
