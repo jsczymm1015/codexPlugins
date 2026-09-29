@@ -13,6 +13,8 @@
 | YMM的GPT聊天记录大恢复术 | `conversation-handoff` | Python 3、Git、目标私有仓库访问权限 |
 | [Codex × Jev 功能测试助手](plugins/codex-jev-test/README.md) | `codex-jev-test` | Python 3.10+；Jev 在线辅助需要 TypeSafe API Key |
 
+| [HTML 导入字段表生成器](plugins/html-columns-excel/README.md) | `html-columns-excel` | Python 3.10+、openpyxl、esprima |
+
 ## 在另一台电脑安装
 
 先登录有权访问此 GitHub 仓库的账号，然后在装有 Codex CLI 的电脑运行：
@@ -26,6 +28,7 @@ codex plugin add frameronin-workflow@codex-plugins
 codex plugin add godot-game-dev-studio@codex-plugins
 codex plugin add conversation-handoff@codex-plugins
 codex plugin add codex-jev-test@codex-plugins
+codex plugin add html-columns-excel@codex-plugins
 ```
 
 安装后新建 Codex 任务以加载技能。仓库同步的是插件文件，不会同时安装 FrameRonin 后台、大模型或其他运行依赖。仅登录同一个 Codex 账号不等于已配置此 Git marketplace。

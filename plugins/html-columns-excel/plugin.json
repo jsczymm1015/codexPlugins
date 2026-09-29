@@ -1,0 +1,24 @@
+{
+  "name": "html-columns-excel",
+  "version": "0.1.0",
+  "description": "从 list.html 的 columns 自动生成导入字段维护 Excel，内置模板并保存到桌面。",
+  "author": {
+    "name": "jsczymm1015"
+  },
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "HTML 导入字段表生成器",
+        "shortDescription": "传入 HTML 绝对路径，自动在桌面生成字段维护表",
+        "longDescription": "从 list.html 的 columns 自动生成导入字段维护 Excel，内置模板并保存到桌面。",
+        "developerName": "jsczymm1015",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "根据这个 HTML 的绝对路径生成导入字段维护表，并保存到桌面："
+      }
+    }
+  }
+}
